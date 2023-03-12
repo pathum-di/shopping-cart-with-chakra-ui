@@ -1,27 +1,17 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  VStack,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { ChakraProvider, theme } from '@chakra-ui/react';
+import ShoppingItemList from './Components/Shopping/ShoppingItemList';
+import { ShoppingCartContextProvider } from './Store/ShoppingCartContext';
+import Layout from './UI/Layout';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Text>
-              your content goes here
-            </Text>
-          </VStack>
-        </Grid>
-      </Box>
+      <ShoppingCartContextProvider>
+        <Layout>
+          <ShoppingItemList />
+        </Layout>
+      </ShoppingCartContextProvider>
     </ChakraProvider>
   );
 }

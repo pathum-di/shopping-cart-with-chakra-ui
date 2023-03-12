@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "m1",
+      "name": "Sushi",
+      "description": "Finest fish and veggies",
+      "price": 22.99,
+      "stockQuantity": 10,
+      "image": "https://media.istockphoto.com/id/1354366250/photo/set-of-rainbow-uramaki-sushi-rolls-with-avocado.jpg?s=1024x1024&w=is&k=20&c=_OQGWg75jlHyO2-UJ-Em_PDoeCkHzuww9ZeCRTMz9eI="
+    },
+    {
+      "id": "m2",
+      "name": "Schnitzel",
+      "description": "A german specialty!",
+      "price": 16.5,
+      "stockQuantity": 20,
+      "image": "https://media.istockphoto.com/id/1416034962/photo/fried-meat-steaks-and-mashed-potato-with-peas-and-sauce-on-a-plate.jpg?s=1024x1024&w=is&k=20&c=ef80PdYpkZJSw9y2XRXH-sRDlPpyRYC2CJi_69IhRpg="
+    },
+    {
+      "id": "m3",
+      "name": "Barbecue Burger",
+      "description": "American, raw, meaty",
+      "price": 12.99,
+      "stockQuantity": 25,
+      "image": "https://media.istockphoto.com/id/1215569804/photo/fresh-and-juicy-hamburger-on-a-paper-pillow-with-beer-on-a-wooden-table-dark-background.jpg?s=1024x1024&w=is&k=20&c=gNzt_W4xZe5BVlqvhSLANVOho27G62pUvjGmiLhOung="
+    },
+    {
+      "id": "m4",
+      "name": "Green Bowl",
+      "description": "Healthy...and green...",
+      "price": 18.99,
+      "stockQuantity": 5,
+      "image": "https://media.istockphoto.com/id/920931456/photo/healthy-buddha-bowl-lunch-with-grilled-chicken-quinoa-spinach-avocado-brussels-sprouts.jpg?s=1024x1024&w=is&k=20&c=BXa_DGtqb3H8RkpDpDIWWgr_Edy2bIUjaltTTGmuCEM="
+    }
+  ]
+}
