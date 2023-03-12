@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Simple Shopping Cart With Chakra UI
+
+This project is a simple shopping cart app with responsive Chakra UI design and React Context. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
