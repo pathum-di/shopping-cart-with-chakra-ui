@@ -39,11 +39,14 @@ export default function ShoppingItem(props) {
       />
 
       <Stack mx="auto">
-        <CardBody>
+        <CardBody p={2}>
           <Heading size="md">{props.name}</Heading>
           <Text py="2">{props.description}</Text>
+          <Text size="md" fontWeight={'semibold'}>
+            ${props.price}
+          </Text>
         </CardBody>
-        <CardFooter>
+        <CardFooter p={2}>
           {!isAddedToCart ? (
             <Tooltip hasArrow label="Add to Cart" placement="top">
               <IconButton

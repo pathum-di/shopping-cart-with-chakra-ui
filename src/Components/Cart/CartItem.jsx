@@ -37,7 +37,7 @@ export default function CartItem(props) {
           />
           <Box px="2" mx="auto">
             <Text
-              fontSize={{ base: 'sm', lg: "lg" }}
+              fontSize={{ base: 'sm', lg: 'lg' }}
               fontWeight={'medium'}
               textAlign={['center', 'left', 'left']}
             >
@@ -63,7 +63,9 @@ export default function CartItem(props) {
                 my="auto"
                 fontSize="sm"
                 fontWeight={'medium'}
-              >{`Item Total : ${(props.quantity * props.price).toFixed(2) || 0}`}</Text>
+              >{`Item Total : ${
+                (props.quantity * props.price).toFixed(2) || 0
+              }`}</Text>
               <Tooltip hasArrow label="Remove Item" placement="top">
                 <IconButton
                   mx="auto"
@@ -73,7 +75,7 @@ export default function CartItem(props) {
                   size="sm"
                   icon={<DeleteIcon />}
                   isRound
-                  onClick={(e) => ctx.onRemoveItemFromCart(props.id)}
+                  onClick={e => ctx.onRemoveItemFromCart(props.id)}
                 />
               </Tooltip>
             </Stack>

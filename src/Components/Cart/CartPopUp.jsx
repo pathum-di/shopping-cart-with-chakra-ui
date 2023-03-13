@@ -22,7 +22,7 @@ export default function CartPopUp(props) {
             colorScheme="teal"
             variant="outline"
             mr={3}
-            size='sm'
+            size="sm"
             onClick={props.toggle}
           >
             Close
@@ -30,7 +30,7 @@ export default function CartPopUp(props) {
           <Button
             colorScheme="teal"
             variant="outline"
-            size='sm'
+            size="sm"
             onClick={props.onConfirm}
           >
             Checkout
